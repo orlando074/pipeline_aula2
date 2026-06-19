@@ -13,3 +13,7 @@ jobs:
       - name: Mostrar mensagem
         run: echo "Pipeline executado com sucesso!"
 
+      - name: Mostrar HTML
+        run: cat index.html
+
+
